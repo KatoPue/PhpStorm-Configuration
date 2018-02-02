@@ -1,0 +1,17 @@
+<templateSet group="editorconfig">
+  <template name="editorconfig" value="root = true&#10;&#10;[*]&#10;charset=utf-8&#10;end_of_line=lf&#10;insert_final_newline=true&#10;trim_trailing_whitespace=true&#10;indent_size=4&#10;indent_style=space&#10;&#10;[*.md]&#10;trim_trailing_whitespace=false&#10;&#10;[{.travis.yml,package.json}]&#10;# The indent size used in the `package.json` file cannot be changed&#10;# https://github.com/npm/npm/pull/3180#issuecomment-16336516&#10;indent_size = 2&#10;indent_style = space" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>

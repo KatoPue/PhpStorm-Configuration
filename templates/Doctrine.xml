@@ -1,0 +1,12 @@
+<templateSet group="Doctrine">
+  <template name="uuid" value="/**&#10; * @var \Ramsey\Uuid\Uuid&#10; *&#10; * @ORM\Id&#10; * @ORM\Column(type=&quot;uuid&quot;, unique=true)&#10; * @ORM\GeneratedValue(strategy=&quot;CUSTOM&quot;)&#10; * @ORM\CustomIdGenerator(class=&quot;Ramsey\Uuid\Doctrine\UuidGenerator&quot;)&#10; */&#10;private $id;" description="Doctrine UUID annotation and id field" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="id" value="/**&#10; * @Id&#10; * @Column(type=&quot;integer&quot;)&#10; * @GeneratedValue&#10; */&#10;private $id;" description="Doctrine ID annotation and id field" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>
